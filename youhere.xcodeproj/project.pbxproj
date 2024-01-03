@@ -44,6 +44,7 @@
 		687856B12B459D8E0043E1BF /* youhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youhereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687856B52B459D8E0043E1BF /* youhereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youhereUITests.swift; sourceTree = "<group>"; };
 		687856B72B459D8E0043E1BF /* youhereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youhereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		687856C42B45A5430043E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		687856992B459D8D0043E1BF /* youhere */ = {
 			isa = PBXGroup;
 			children = (
+				687856C42B45A5430043E1BF /* Info.plist */,
 				6878569A2B459D8D0043E1BF /* youhereApp.swift */,
 				6878569C2B459D8D0043E1BF /* ContentView.swift */,
 				6878569E2B459D8E0043E1BF /* Assets.xcassets */,
@@ -425,6 +427,11 @@
 				DEVELOPMENT_TEAM = VL774CXKAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = youhere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To detect nearby hosts";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To identify host devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +461,11 @@
 				DEVELOPMENT_TEAM = VL774CXKAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = youhere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To detect nearby hosts";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To identify host devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
